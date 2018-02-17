@@ -6,9 +6,13 @@ The script basically just replaces all spaces greater than 1 with a single space
 How to run the script.
 
 First give yourself permission
-	$ chmod u+x RmSpaces.bash
+<pre>	
+<code>$ chmod u+x RmSpaces.bash</code>
+</pre>
 
 Second run the script and include file name
-	$ ./RmSpaces.bash [file]
+<pre>
+<code>$ ./RmSpaces.bash [file]</code>
+</pre>
 
 
