@@ -5,13 +5,10 @@ The script basically just replaces all spaces greater than 1 with a single space
 
 ### How to run the script.
 
-First give yourself permission:
-```	
+```
+$ git clone https://github.com/Tursko/SpaceRemover.git
+$ cd SpaceRemover
 $ chmod u+x RmSpaces.bash
-```
-
-Second run the script and include file name:
-```
 $ ./RmSpaces.bash [file]
 ```
 
