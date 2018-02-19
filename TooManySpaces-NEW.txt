@@ -1,0 +1,2 @@
+This is just another example with a file with a .txt ext! 
+I love bash!
