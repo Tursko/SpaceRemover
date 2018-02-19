@@ -1,15 +1,16 @@
 #!/bin/bash
-#Author: Tursko
+# Author: Tursko (Taylor Riley)
 
-#This is a very simple script that removes any set of spaces that
-#are not 1 space. 
-#Example input: tursko     programming
-#Example output: tursko programming
+# This is a very simple script that removes any set of spaces that
+# are not 1 space. 
+# Example input: tursko     programming
+# Example output: tursko programming
 
-#Added a catch for file extensions (2-18-2018)
-	#NOTE: if file name is something like FileName.s.txt , the resulting file name
-	#will be extremely off. 
-	#Only works for file names like: { file or file.txt or file.c or file.hey }
+# Added a catch for file extensions (2-18-2018)
+	# NOTE: if file name is something like FileName.s.txt , the resulting file name
+	# will be extremely off. 
+	# Only works for file names like: { file or file.txt or file.c or file.hey }
+
 echo "" > ExtNoName
 echo "" > ExtExists
 if [ $# -ne 1 ]; then
